@@ -4,9 +4,6 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="taxCalculator" class="com.webage.spring.SalesTaxCalculator"></bean>
-    <bean id="registerBean" class="com.webage.spring.Register">
-    	<constructor-arg index="0" ref="taxCalculator"/>
-    </bean>
+	<!--  This file could be deleted. -->
 
 </beans>
